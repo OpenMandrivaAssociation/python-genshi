@@ -9,7 +9,6 @@ URL:            http://genshi.edgewall.org/
 Source0:        http://ftp.edgewall.com/pub/genshi/Genshi-%{version}.tar.bz2
 BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
-BuildArch:      noarch
 BuildRequires:  python-devel
 
 %description
