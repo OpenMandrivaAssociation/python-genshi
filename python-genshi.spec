@@ -26,7 +26,7 @@ find examples -type f | xargs chmod a-x
 
 %install
 rm -rf %{buildroot}
-%{__python} setup.py install -O1 --skip-build --root %{buildroot}
+%{__python} setup.py install -O1 --skip-build --root %{buildroot} --install-purelib=%py_platsitedir
  
 %clean
 rm -rf %{buildroot}
