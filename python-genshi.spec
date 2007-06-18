@@ -3,7 +3,7 @@ Version:        0.4.1
 Release:        %mkrel 1
 Summary:        Toolkit for stream-based generation of output for the web
 
-Group:          Development/Languages
+Group:          Development/Python
 License:        BSD
 URL:            http://genshi.edgewall.org/
 Source0:        http://ftp.edgewall.com/pub/genshi/Genshi-%{version}.tar.bz2
