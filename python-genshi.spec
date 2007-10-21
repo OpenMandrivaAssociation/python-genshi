@@ -1,6 +1,6 @@
 Name:           python-genshi
-Version:        0.4.1
-Release:        %mkrel 2
+Version:        0.4.4
+Release:        %mkrel 1
 Summary:        Toolkit for stream-based generation of output for the web
 
 Group:          Development/Python
@@ -27,7 +27,7 @@ find examples -type f | xargs chmod a-x
 %install
 rm -rf %{buildroot}
 %{__python} setup.py install -O1 --skip-build --root %{buildroot} --install-purelib=%py_platsitedir
- 
+
 %clean
 rm -rf %{buildroot}
 
