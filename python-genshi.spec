@@ -1,5 +1,5 @@
 Name:           python-genshi
-Version:        0.4.4
+Version:        0.5
 Release:        %mkrel 1
 Summary:        Toolkit for stream-based generation of output for the web
 
@@ -33,5 +33,5 @@ rm -rf %{buildroot}
 
 %files
 %defattr(-,root,root,-)
-%doc ChangeLog COPYING doc examples README.txt UPGRADE.txt
+%doc ChangeLog COPYING doc examples README.txt
 %{py_platsitedir}/*
