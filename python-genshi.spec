@@ -1,6 +1,6 @@
 Name:           python-genshi
 Version:        0.5.1
-Release:        %mkrel 2
+Release:        %mkrel 3
 Summary:        Toolkit for stream-based generation of output for the web
 
 Group:          Development/Python
