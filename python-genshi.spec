@@ -1,6 +1,6 @@
 Name:           python-genshi
 Version:        0.5.1
-Release:        %mkrel 3
+Release:        %mkrel 4
 Summary:        Toolkit for stream-based generation of output for the web
 
 Group:          Development/Python
@@ -8,8 +8,8 @@ License:        BSD
 URL:            http://genshi.edgewall.org/
 Source0:        http://ftp.edgewall.com/pub/genshi/Genshi-%{version}.tar.bz2
 BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-buildroot
-
-BuildRequires:  python-devel
+%py_requires -d
+BuildRequires:	python-setuptools
 
 %description
 Genshi is a Python library that provides an integrated set of
