@@ -1,2 +1,4 @@
+removed_sources:
+  Genshi-0.6.tar.bz2: 921110b00e611d90801eecfebf693d37d5b69c01
 sources:
-  "Genshi-0.6.tar.bz2": 921110b00e611d90801eecfebf693d37d5b69c01
+  Genshi-0.7.tar.gz: f34b762736d2814bcdea075f6b01b9de6c61aa61
