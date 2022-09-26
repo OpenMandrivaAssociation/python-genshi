@@ -1,13 +1,12 @@
 Name:           python-genshi
-Version:	0.7.3
+Version:	0.7.7
 Release:	1
 Summary:        Toolkit for stream-based generation of output for the web
 
 Group:          Development/Python
 License:        BSD
 URL:            http://genshi.edgewall.org/
-Source0:	https://files.pythonhosted.org/packages/cd/ef/ac21ced1b5e7be3bacbc57f9d3d765064b58beb597b8022ad12c5a8c24ea/Genshi-0.7.3.tar.gz
-BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-buildroot
+Source0:	https://files.pythonhosted.org/packages/source/G/Genshi/Genshi-%{version}.tar.gz
 BuildRequires:	python-devel
 BuildRequires:	python-setuptools
 
