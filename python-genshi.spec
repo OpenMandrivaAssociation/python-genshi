@@ -5,7 +5,7 @@ Summary:        Toolkit for stream-based generation of output for the web
 
 Group:          Development/Python
 License:        BSD
-URL:            http://genshi.edgewall.org/
+URL:            https://genshi.edgewall.org/
 Source0:	https://files.pythonhosted.org/packages/source/G/Genshi/Genshi-%{version}.tar.gz
 BuildRequires:	python-devel
 BuildRequires:	python-setuptools
