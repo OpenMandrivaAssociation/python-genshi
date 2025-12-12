@@ -1,6 +1,6 @@
 Name:           python-genshi
 Version:	0.7.7
-Release:	1
+Release:	2
 Summary:        Toolkit for stream-based generation of output for the web
 
 Group:          Development/Python
