@@ -2,17 +2,17 @@
 %bcond tests 1
 
 Name:		python-genshi
-Version:	0.7.10
+Version:	0.7.11
 Release:	1
 Summary:	Toolkit for stream-based generation of output for the web
 License:	BSD-3-Clause
 Group:		Development/Python
 URL:		https://genshi.edgewall.org/
-# URL:		https://github.com/edgewall/genshi
+# repo url	https://github.com/edgewall/genshi
 Source0:	https://github.com/edgewall/genshi/archive/%{version}/%{name}-%{version}.tar.gz
 
 BuildSystem:	python
-BuildRequires:	pkgconfig(python3)
+BuildRequires:	pkgconfig(python)
 BuildRequires:	python%{pyver}dist(pip)
 BuildRequires:	python%{pyver}dist(setuptools)
 BuildRequires:	python%{pyver}dist(wheel)
