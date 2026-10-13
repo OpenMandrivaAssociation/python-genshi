@@ -10,6 +10,8 @@ Group:		Development/Python
 URL:		https://genshi.edgewall.org/
 # repo url	https://github.com/edgewall/genshi
 Source0:	https://github.com/edgewall/genshi/archive/%{version}/%{name}-%{version}.tar.gz
+# Python 3.15 requires AST fields in the constructor.
+Patch0:		python-genshi-0.7.11-python315-ast.patch
 
 BuildSystem:	python
 BuildRequires:	pkgconfig(python3)
