@@ -3,7 +3,7 @@
 
 Name:		python-genshi
 Version:	0.7.11
-Release:	1
+Release:	2
 Summary:	Toolkit for stream-based generation of output for the web
 License:	BSD-3-Clause
 Group:		Development/Python
@@ -12,7 +12,7 @@ URL:		https://genshi.edgewall.org/
 Source0:	https://github.com/edgewall/genshi/archive/%{version}/%{name}-%{version}.tar.gz
 
 BuildSystem:	python
-BuildRequires:	pkgconfig(python)
+BuildRequires:	pkgconfig(python3)
 BuildRequires:	python%{pyver}dist(pip)
 BuildRequires:	python%{pyver}dist(setuptools)
 BuildRequires:	python%{pyver}dist(wheel)
